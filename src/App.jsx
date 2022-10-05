@@ -52,7 +52,7 @@ class App extends Component {
     return (
       <div className="container fondoPrincipal">
         <Header
-        titulo='Administrador Pacientes Veterinario'
+        titulo='Administrador de turnos veterinarios'
         />
         <div className="row">
           <div className="col-md-10 mx-auto">
