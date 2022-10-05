@@ -77,7 +77,7 @@ class NuevaCita extends Component {
             <div className="card mt-5 py-5">
                 <div className="card-body">
                     <h2 className="card-title text-center mb-5">
-                        Llena el formulario para crear una nueva cita
+                        Llena el formulario para reservar un turno
                     </h2>
 
                     {error ? <div className="alert alert-danger mt-2 mb-5 text-center"> ¡¡Todos los campos son obligatorios!!</div> : null}
@@ -137,7 +137,7 @@ class NuevaCita extends Component {
                         </div>
 
                         <div className="form-group row">
-                            <label className="col-sm-4 col-lg-2 col-form-label">Sintomas</label>
+                            <label className="col-sm-4 col-lg-2 col-form-label">Síntomas</label>
                             <div className="col-sm-8 col-lg-10">
                                 <textarea
                                     type="text"
@@ -150,8 +150,9 @@ class NuevaCita extends Component {
                                 </textarea>
                             </div>
                         </div>
+                        <div className="text-center">
                             <input type="submit" className="py-3 mt-2 btn btn-success btn-block" value="Agregar Nueva Cita"/>
-
+                        </div>
                     </form>
                 </div>
             </div>

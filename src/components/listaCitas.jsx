@@ -3,7 +3,7 @@ import Cita from './cita';
 
 const ListaCitas = ({citas, eliminarCita})=>{
 
-    const mensaje = Object.keys(citas).length === 0 ? 'No hay citas': 'Administra las citas aquí';
+    const mensaje = Object.keys(citas).length === 0 ? 'No hay turnos': 'Turnos asignados';
     return (
        <div className="card mt-2 py-5">
            <div className="card-body">

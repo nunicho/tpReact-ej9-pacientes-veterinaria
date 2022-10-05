@@ -1,9 +1,9 @@
-
 import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header';
 import NuevaCita from './components/nuevaCita';
 import ListaCitas from './components/listaCitas';
+import './App.css'
 
 class App extends Component {
   state ={ citas: []   }
@@ -50,7 +50,7 @@ class App extends Component {
 
   render(){
     return (
-      <div className="container">
+      <div className="container fondoPrincipal">
         <Header
         titulo='Administrador Pacientes Veterinario'
         />
